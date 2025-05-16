@@ -1,0 +1,10 @@
+.sidebar {
+    margin-top: 20px;
+    width: 250px;
+    height: calc(100% - 76px); /* Adjust according to your navbar height */
+    overflow-y: auto;
+    background-color: #1e1e1e; /* Dark background color */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
