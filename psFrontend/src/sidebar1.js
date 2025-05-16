@@ -5,8 +5,6 @@ import Button from "@mui/material/Button";
 import Avatar from "@mui/material/Avatar";
 
 function Sidebar1({ uid, profPic }) {
-
-
   return (
     <Box
       className="sidebar"
@@ -29,9 +27,7 @@ function Sidebar1({ uid, profPic }) {
       </Box>
       <Box mb={3}>
         <Typography variant="h5">{uid ? uid : "Anonymous"}</Typography>
-        <Typography variant="body2" sx={{ color: "#ADB5BD" }}>
-          Graphic Designer
-        </Typography>
+        <Typography variant="body2" sx={{ color: "#ADB5BD" }}></Typography>
       </Box>
       <Box display="flex" justifyContent="space-around" mb={3}>
         <Box textAlign="center">
